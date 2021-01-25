@@ -1,0 +1,66 @@
+.PopUpAddUser {
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+  padding: 2em 0;
+}
+label {
+  left: 0;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.update_Form {
+  width: 100%;
+  margin-top: 3em;
+}
+.first_Container,
+.second_Container,
+.forth_Container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.third_Container {
+  width: 100%;
+}
+.first_Name_container,
+.last_Name_container,
+.email_Container,
+.phone_Number_Container,
+.password_Container,
+.state_Container {
+  width: 45%;
+}
+.address_Container {
+  width: 100%;
+}
+
+#first_Name,
+#last_Name,
+#email,
+#phone_Number,
+#address,
+#state,
+#password {
+  margin-top: -5px;
+  width: 100%;
+}
+#submit {
+  margin-top: 10px;
+  padding: 0.5em 5em;
+  background-color: green;
+}
+.error {
+  border: 2px solid red;
+}
+.error_input {
+  border: 2px solid red;
+}
+.error_div {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: -10px;
+  font-size: 10px;
+  color: red;
+}
